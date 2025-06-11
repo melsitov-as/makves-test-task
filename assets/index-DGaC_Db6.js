@@ -698,7 +698,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   }
 
   &:hover {
-    background-color: ${c=>c.$color==="light"?"var(--color-sidebar-background-light-hover)":"var(--color-sidebar-background-dark-hover)"};
+    background-color: ${c=>c.$color==="light"?"#f1f5f9":"var(--color-sidebar-background-dark-hover)"};
   }
 
   &:hover span {
