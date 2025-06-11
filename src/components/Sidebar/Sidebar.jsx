@@ -176,7 +176,7 @@ const RouteItem = styled.div`
   &:hover {
     background-color: ${(props) => {
       if (props.$color === 'light') {
-        return 'var(--color-sidebar-background-light-hover)';
+        return '#f1f5f9';
       } else {
         return 'var(--color-sidebar-background-dark-hover)';
       }
